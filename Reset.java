@@ -1,7 +1,6 @@
 package x7;
 import java.awt.Color;
-import x7.Board;
-class Reset extends Board{
+class Reset extends x7.Board{
 	static final int U = 0;
 	static final int D = 1;
 	static final int L = 2;
