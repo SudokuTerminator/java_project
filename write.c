@@ -5,7 +5,7 @@ int main(){
 	while(x < 19){
 		y = 0;
 		while(y < 19){
-			fprintf(f,"JButton board%02d%02d = new JButton(\"\");\n",x,y);
+			fprintf(f,"\tprotected static JButton board%02d%02d = new JButton(\"\");\n",x,y);
 			++y;
 		}
 		++x;
